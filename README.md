@@ -430,6 +430,11 @@ and the service terms of your installer.
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### 0.1.1 (2026-11-24)
+
+- (barloew) Published with provenance through trusted publishing.
+- (barloew) Tests on Node.js 22, 24 and 26; Dependabot keeps dependencies up to date.
+
 ### 0.1.0 (2026-11-24)
 
 - (barloew) First version: every standard entity of the AquaClean Bridge as an ioBroker state with a fixed id,

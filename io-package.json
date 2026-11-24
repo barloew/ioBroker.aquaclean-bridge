@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "aquaclean-bridge",
-        "version": "0.1.0",
+        "version": "0.1.1",
         "news": {
+            "0.1.1": {
+                "en": "Published with provenance through trusted publishing; maintenance of the test matrix and Dependabot",
+                "de": "Mit Provenienz über Trusted Publishing veröffentlicht; Pflege der Testmatrix und von Dependabot",
+                "ru": "Опубликовано с подтверждением происхождения через trusted publishing; обслуживание тестовой матрицы и Dependabot",
+                "pt": "Publicado com proveniência através de trusted publishing; manutenção da matriz de testes e do Dependabot",
+                "nl": "Gepubliceerd met herkomstbewijs via trusted publishing; onderhoud van de testmatrix en Dependabot",
+                "fr": "Publié avec provenance via le trusted publishing ; maintenance de la matrice de tests et de Dependabot",
+                "it": "Pubblicato con provenienza tramite trusted publishing; manutenzione della matrice di test e di Dependabot",
+                "es": "Publicado con procedencia mediante trusted publishing; mantenimiento de la matriz de pruebas y de Dependabot",
+                "pl": "Opublikowano z poświadczeniem pochodzenia przez trusted publishing; utrzymanie macierzy testów i Dependabota",
+                "uk": "Опубліковано з підтвердженням походження через trusted publishing; обслуговування тестової матриці та Dependabot",
+                "zh-cn": "通过受信任发布以来源证明方式发布；维护测试矩阵和 Dependabot"
+            },
             "0.1.0": {
                 "en": "First version: every standard entity of the bridge as a state with fixed id, role and names in 11 languages",
                 "de": "Erste Version: jede Standard-Entität der Bridge als Datenpunkt mit fester ID, Rolle und Namen in 11 Sprachen",
