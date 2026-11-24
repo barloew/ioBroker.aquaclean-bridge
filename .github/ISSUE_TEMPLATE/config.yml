@@ -1,0 +1,12 @@
+# Issues and discussions for the adapter live in the bridge repository, together with the bridge itself.
+blank_issues_enabled: false
+contact_links:
+    - name: 🐞 Report a problem or request a feature
+      url: https://github.com/barloew/geberit-aquaclean-bridge-for-esp/issues/new/choose
+      about: Adapter and bridge share one issue tracker. Pick "ioBroker" as home automation system in the form.
+    - name: 💬 Questions & help
+      url: https://github.com/barloew/geberit-aquaclean-bridge-for-esp/discussions
+      about: Ask how to set up or use the adapter or the bridge.
+    - name: 📖 Adapter documentation
+      url: https://github.com/barloew/ioBroker.aquaclean-bridge#readme
+      about: Configuration, the object tree and every state.

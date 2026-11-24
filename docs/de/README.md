@@ -400,6 +400,17 @@ Stufen 1–5 wie auf der Fernbedienung; eine Wassertemperatur oder Sitzheizung v
 Discovery- und Diagnosewerkzeuge für andere Modelle, auf der Bridge standardmäßig deaktiviert: Advertising, Angeschlossene Module, Deckel-Offset, Duscharm-Offset, Duscharmposition einstellen, Duscharmposition höher, Duscharmposition niedriger, Duscharmposition speichern, Einstellungen aktualisieren, Einstellungen scannen, Einstellungsscan, Ende der Testphase, Entleeren, Erkundungsmodus, Fernbedienung Adresse, Fernbedienung Firmware, Fernbedienung Weitergabe an WC aktiv, Fernbedienung an WC weitergeben, Fernbedienung letzte Taste, Funktionen neu erkennen, Föhnarm-Offset, Föhnarmposition einstellen, Föhnarmposition höher, Föhnarmposition niedriger, Föhnarmposition speichern, Gefundene Funktionen, Gesehene Prozeduren, Letzte Antwort, Ohne Entkalkung stoppt die Dusche in, Pumpe und Leitung entleeren, Rohanfrage, Statistik lesen, Status roh, Testphase verbleibend, Verlängerte Testphase verbleibend, WC in der Nähe suchen, Zeitüberschreitungen.
 <!-- entities:end -->
 
+## Fragen, Probleme und Ideen
+
+Adapter und Bridge haben einen gemeinsamen Ort für Support, im Repository der Bridge:
+
+- **Problem melden oder Funktion vorschlagen:** [ein Issue anlegen](https://github.com/barloew/geberit-aquaclean-bridge-for-esp/issues/new/choose) (auf Englisch)
+  und *ioBroker* als Hausautomationssystem wählen. Die Adapterversion angeben und bei Problemen das Log der
+  Instanz auf Stufe *debug*.
+- **Fragen und Hilfe:** [Discussions](https://github.com/barloew/geberit-aquaclean-bridge-for-esp/discussions).
+
+Bitte nicht die Issues dieses Repositorys verwenden: Es enthält nur die veröffentlichte Kopie des Adapters.
+
 ## Fehlerbehebung
 
 - **Die Instanz bleibt gelb/rot.** Adresse prüfen und ob die Bridge die *Native-API*-Firmware hat (die

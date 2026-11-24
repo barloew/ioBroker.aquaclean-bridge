@@ -399,6 +399,16 @@ like on the remote control; a water temperature or seat heating of 0 means off.
 Discovery and diagnostic tools for other models, disabled by default on the bridge: Adjust dryer arm position, Adjust shower arm position, Advertisement, Connected modules, Discovery mode, Drain pump and pipe, Draining, Dryer arm offset, Dryer arm position higher, Dryer arm position lower, Extended trial remaining, Found functions, Last response, Lid offset, Procedures seen, Raw request, Raw status, Read statistics, Rediscover functions, Refresh settings, Remote control address, Remote control firmware, Remote control forward to toilet, Remote control last button, Remote control pass-through to toilet active, Save dryer arm position, Save shower arm position, Scan settings, Search for a nearby toilet, Settings scan, Shower arm offset, Shower arm position higher, Shower arm position lower, Timeouts, Trial period end, Trial period remaining, Without descaling the shower stops in.
 <!-- entities:end -->
 
+## Questions, problems and ideas
+
+The adapter and the bridge share one place for support, in the bridge's repository:
+
+- **Report a problem or request a feature:** [open an issue](https://github.com/barloew/geberit-aquaclean-bridge-for-esp/issues/new/choose) and pick *ioBroker*
+  as home automation system. Add the adapter version and, for problems, the instance log at level *debug*.
+- **Questions and help:** [Discussions](https://github.com/barloew/geberit-aquaclean-bridge-for-esp/discussions).
+
+Please don't use the issues of this repository: it only holds the published copy of the adapter.
+
 ## Troubleshooting
 
 - **The instance stays yellow/red.** Check the address and that the bridge runs the *native API* firmware (the

@@ -22,7 +22,7 @@
         "url": "git+https://github.com/barloew/ioBroker.aquaclean-bridge.git"
     },
     "bugs": {
-        "url": "https://github.com/barloew/ioBroker.aquaclean-bridge/issues"
+        "url": "https://github.com/barloew/geberit-aquaclean-bridge-for-esp/issues"
     },
     "engines": {
         "node": ">= 22"
