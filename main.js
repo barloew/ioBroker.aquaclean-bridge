@@ -8,7 +8,7 @@
  * languages. What exists is decided by the bridge (feature discovery): only what the toilet has gets a state.
  */
 
-const dns = require('dns').promises;
+const dns = require('node:dns').promises;
 const utils = require('@iobroker/adapter-core');
 const { Discovery } = require('@2colors/esphome-native-api');
 const Bridge = require('./lib/bridge');

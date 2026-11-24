@@ -1,7 +1,7 @@
 'use strict';
 
-const path = require('path');
-const assert = require('assert');
+const path = require('node:path');
+const assert = require('node:assert');
 const { tests } = require('@iobroker/testing');
 const FakeBridge = require('./lib/fake-bridge');
 const table = require('../lib/entities.json');

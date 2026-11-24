@@ -69,8 +69,7 @@ Tastendruck auf der Fernbedienung das Badlicht einschalten.
    Zeichen sind das Ende der MAC-Adresse des ESP), **Generate random key** drücken, den Schlüssel kopieren und
    **Save to bridge** drücken.
 3. **Adapter installieren.** In ioBroker Admin unter **Adapter** nach **AquaClean Bridge** suchen und
-   installieren. Solange der Adapter noch nicht im Repository ist, von GitHub installieren: **Adapter** →
-   GitHub-Symbol (*Installieren aus eigener URL*) → `https://github.com/barloew/ioBroker.aquaclean-bridge`.
+   installieren.
 4. **Instanz konfigurieren** (siehe unten) und speichern. Die Instanz wird grün, sobald sie verbunden ist.
 
 Eine Bridge pro Instanz; für ein zweites WC eine zweite Instanz anlegen. Der Adapter benötigt Node.js 22 oder

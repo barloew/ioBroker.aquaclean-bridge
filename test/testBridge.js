@@ -1,6 +1,6 @@
 'use strict';
 
-const assert = require('assert');
+const assert = require('node:assert');
 const Bridge = require('../lib/bridge');
 const FakeBridge = require('./lib/fake-bridge');
 const table = require('../lib/entities.json');

@@ -73,8 +73,6 @@ light with a long press on the remote control.
 2. **Save an encryption key.** Open `http://aquaclean-xxxxxx.local/setup` (the last six characters are the end of
    the ESP's MAC address), press **Generate random key**, copy it and press **Save to bridge**.
 3. **Install the adapter.** In ioBroker Admin, open **Adapters**, search for **AquaClean Bridge** and install it.
-   As long as the adapter is not in the repository yet, install it from GitHub: **Adapters** → the GitHub icon
-   (*Install from custom URL*) → `https://github.com/barloew/ioBroker.aquaclean-bridge`.
 4. **Configure the instance** (below) and save. The instance turns green once it is connected.
 
 Only one bridge per instance; for a second toilet, add a second instance. The adapter needs Node.js 22 or newer

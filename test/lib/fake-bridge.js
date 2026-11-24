@@ -6,7 +6,7 @@
  * listing, sends states and records the commands it receives, echoing them as new states like the bridge does.
  */
 
-const net = require('net');
+const net = require('node:net');
 require('../../lib/bridge'); // registers every api.proto message with the library (event, time, …)
 const { pb } = require('@2colors/esphome-native-api/lib/utils/messages');
 const table = require('../../lib/entities.json');
