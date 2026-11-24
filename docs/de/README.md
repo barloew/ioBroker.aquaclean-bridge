@@ -73,7 +73,8 @@ Tastendruck auf der Fernbedienung das Badlicht einschalten.
    GitHub-Symbol (*Installieren aus eigener URL*) → `https://github.com/barloew/ioBroker.aquaclean-bridge`.
 4. **Instanz konfigurieren** (siehe unten) und speichern. Die Instanz wird grün, sobald sie verbunden ist.
 
-Eine Bridge pro Instanz; für ein zweites WC eine zweite Instanz anlegen.
+Eine Bridge pro Instanz; für ein zweites WC eine zweite Instanz anlegen. Der Adapter benötigt Node.js 22 oder
+neuer und js-controller 6.0.11 oder neuer.
 
 ## Konfiguration
 

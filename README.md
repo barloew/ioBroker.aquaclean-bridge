@@ -77,7 +77,8 @@ light with a long press on the remote control.
    (*Install from custom URL*) → `https://github.com/barloew/ioBroker.aquaclean-bridge`.
 4. **Configure the instance** (below) and save. The instance turns green once it is connected.
 
-Only one bridge per instance; for a second toilet, add a second instance.
+Only one bridge per instance; for a second toilet, add a second instance. The adapter needs Node.js 22 or newer
+and js-controller 6.0.11 or newer.
 
 ## Configuration
 
