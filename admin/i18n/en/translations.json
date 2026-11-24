@@ -1,0 +1,12 @@
+{
+    "intro": "Connects to the Geberit AquaClean Bridge for ESP over the ESPHome native API, locally and encrypted. The bridge needs the native API firmware; save an encryption key on its /setup page first.",
+    "host": "Bridge (host name or IP address)",
+    "host_help": "Bridges found on the network are offered; e.g. aquaclean-xxxxxx.local",
+    "port": "Port",
+    "key": "API encryption key",
+    "key_help": "The 44-character key saved on http://<bridge>/setup",
+    "advanced": "Also create advanced entities",
+    "advanced_help": "Discovery and diagnostic tools for other models, hidden by default on the bridge",
+    "cleanup": "Remove states of functions the toilet doesn't offer",
+    "cleanup_help": "After a rediscovery or a move to another toilet; Physical maintenance is always kept"
+}

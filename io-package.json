@@ -1,0 +1,207 @@
+{
+    "common": {
+        "name": "aquaclean-bridge",
+        "version": "0.1.0",
+        "news": {
+            "0.1.0": {
+                "en": "First version: every standard entity of the bridge as a state with fixed id, role and names in 11 languages",
+                "de": "Erste Version: jede Standard-Entität der Bridge als Datenpunkt mit fester ID, Rolle und Namen in 11 Sprachen",
+                "ru": "Первая версия: каждый стандартный объект моста как состояние с постоянным ID, ролью и именами на 11 языках",
+                "pt": "Primeira versão: cada entidade padrão da bridge como estado com ID fixo, função e nomes em 11 idiomas",
+                "nl": "Eerste versie: elke standaardentiteit van de bridge als datapunt met vaste id, rol en namen in 11 talen",
+                "fr": "Première version : chaque entité standard du bridge comme état avec ID fixe, rôle et noms en 11 langues",
+                "it": "Prima versione: ogni entità standard del bridge come stato con ID fisso, ruolo e nomi in 11 lingue",
+                "es": "Primera versión: cada entidad estándar del bridge como estado con ID fijo, rol y nombres en 11 idiomas",
+                "pl": "Pierwsza wersja: każda standardowa encja bridge jako stan ze stałym ID, rolą i nazwami w 11 językach",
+                "uk": "Перша версія: кожен стандартний об'єкт мосту як стан із постійним ID, роллю та назвами 11 мовами",
+                "zh-cn": "首个版本：Bridge 的每个标准实体都成为具有固定 ID、角色和 11 种语言名称的状态"
+            }
+        },
+        "titleLang": {
+            "en": "AquaClean Bridge",
+            "de": "AquaClean Bridge",
+            "ru": "AquaClean Bridge",
+            "pt": "AquaClean Bridge",
+            "nl": "AquaClean Bridge",
+            "fr": "AquaClean Bridge",
+            "it": "AquaClean Bridge",
+            "es": "AquaClean Bridge",
+            "pl": "AquaClean Bridge",
+            "uk": "AquaClean Bridge",
+            "zh-cn": "AquaClean Bridge"
+        },
+        "desc": {
+            "en": "Geberit AquaClean shower toilet through the AquaClean Bridge for ESP (ESPHome native API, local)",
+            "de": "Geberit AquaClean Dusch-WC über die AquaClean Bridge for ESP (ESPHome Native API, lokal)",
+            "ru": "Унитаз-биде Geberit AquaClean через AquaClean Bridge for ESP (нативный API ESPHome, локально)",
+            "pt": "Sanita com bidé Geberit AquaClean através da AquaClean Bridge for ESP (API nativa ESPHome, local)",
+            "nl": "Geberit AquaClean douchetoilet via de AquaClean Bridge for ESP (ESPHome native API, lokaal)",
+            "fr": "WC lavant Geberit AquaClean via l'AquaClean Bridge for ESP (API native ESPHome, en local)",
+            "it": "Vaso bidet Geberit AquaClean tramite l'AquaClean Bridge for ESP (API nativa ESPHome, locale)",
+            "es": "Inodoro bidé Geberit AquaClean a través de AquaClean Bridge for ESP (API nativa de ESPHome, local)",
+            "pl": "Toaleta myjąca Geberit AquaClean przez AquaClean Bridge for ESP (natywne API ESPHome, lokalnie)",
+            "uk": "Унітаз-біде Geberit AquaClean через AquaClean Bridge for ESP (нативний API ESPHome, локально)",
+            "zh-cn": "通过 AquaClean Bridge for ESP（ESPHome 原生 API，本地）接入 Geberit AquaClean 智能马桶"
+        },
+        "authors": [
+            "barloew <barloew@users.noreply.github.com>"
+        ],
+        "keywords": [
+            "geberit",
+            "aquaclean",
+            "shower toilet",
+            "esphome",
+            "bridge",
+            "esp32",
+            "bluetooth"
+        ],
+        "licenseInformation": {
+            "type": "free",
+            "license": "MIT"
+        },
+        "platform": "Javascript/Node.js",
+        "icon": "aquaclean-bridge.png",
+        "extIcon": "https://raw.githubusercontent.com/barloew/ioBroker.aquaclean-bridge/main/admin/aquaclean-bridge.png",
+        "readme": "https://github.com/barloew/ioBroker.aquaclean-bridge/blob/main/README.md",
+        "docs": {
+            "en": [
+                "README.md"
+            ],
+            "de": [
+                "docs/de/README.md"
+            ]
+        },
+        "loglevel": "info",
+        "tier": 3,
+        "mode": "daemon",
+        "type": "household",
+        "compact": true,
+        "connectionType": "local",
+        "dataSource": "push",
+        "adminUI": {
+            "config": "json"
+        },
+        "messagebox": true,
+        "dependencies": [
+            {
+                "js-controller": ">=6.0.11"
+            }
+        ],
+        "globalDependencies": [
+            {
+                "admin": ">=7.6.20"
+            }
+        ]
+    },
+    "encryptedNative": [
+        "key"
+    ],
+    "protectedNative": [
+        "key"
+    ],
+    "native": {
+        "host": "",
+        "port": 6053,
+        "key": "",
+        "advanced": false,
+        "cleanup": true
+    },
+    "objects": [],
+    "instanceObjects": [
+        {
+            "_id": "info",
+            "type": "channel",
+            "common": {
+                "name": {
+                    "en": "Information",
+                    "de": "Informationen",
+                    "ru": "Информация",
+                    "pt": "Informação",
+                    "nl": "Informatie",
+                    "fr": "Informations",
+                    "it": "Informazioni",
+                    "es": "Información",
+                    "pl": "Informacje",
+                    "uk": "Інформація",
+                    "zh-cn": "信息"
+                }
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.connection",
+            "type": "state",
+            "common": {
+                "role": "indicator.connected",
+                "name": {
+                    "en": "Connected to the bridge",
+                    "de": "Mit der Bridge verbunden",
+                    "ru": "Подключено к мосту",
+                    "pt": "Ligado à bridge",
+                    "nl": "Verbonden met de bridge",
+                    "fr": "Connecté au bridge",
+                    "it": "Connesso al bridge",
+                    "es": "Conectado al bridge",
+                    "pl": "Połączono z bridge",
+                    "uk": "Підключено до мосту",
+                    "zh-cn": "已连接到 Bridge"
+                },
+                "type": "boolean",
+                "read": true,
+                "write": false,
+                "def": false
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.firmware",
+            "type": "state",
+            "common": {
+                "role": "info.firmware",
+                "name": {
+                    "en": "Bridge firmware",
+                    "de": "Bridge-Firmware",
+                    "ru": "Прошивка моста",
+                    "pt": "Firmware da bridge",
+                    "nl": "Bridge-firmware",
+                    "fr": "Firmware du bridge",
+                    "it": "Firmware del bridge",
+                    "es": "Firmware del bridge",
+                    "pl": "Firmware bridge",
+                    "uk": "Прошивка мосту",
+                    "zh-cn": "Bridge 固件"
+                },
+                "type": "string",
+                "read": true,
+                "write": false,
+                "def": ""
+            },
+            "native": {}
+        },
+        {
+            "_id": "info.esphome",
+            "type": "state",
+            "common": {
+                "role": "info.firmware",
+                "name": {
+                    "en": "ESPHome version",
+                    "de": "ESPHome-Version",
+                    "ru": "Версия ESPHome",
+                    "pt": "Versão do ESPHome",
+                    "nl": "ESPHome-versie",
+                    "fr": "Version d'ESPHome",
+                    "it": "Versione ESPHome",
+                    "es": "Versión de ESPHome",
+                    "pl": "Wersja ESPHome",
+                    "uk": "Версія ESPHome",
+                    "zh-cn": "ESPHome 版本"
+                },
+                "type": "string",
+                "read": true,
+                "write": false,
+                "def": ""
+            },
+            "native": {}
+        }
+    ]
+}

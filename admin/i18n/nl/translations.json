@@ -1,0 +1,12 @@
+{
+    "intro": "Verbindt via de ESPHome native API lokaal en versleuteld met de Geberit AquaClean Bridge for ESP. De bridge heeft de native-API-firmware nodig; sla eerst een versleutelingssleutel op via de /setup-pagina.",
+    "host": "Bridge (hostnaam of IP-adres)",
+    "host_help": "Gevonden bridges op het netwerk worden aangeboden; bijv. aquaclean-xxxxxx.local",
+    "port": "Poort",
+    "key": "API-versleutelingssleutel",
+    "key_help": "De sleutel van 44 tekens, opgeslagen op http://<bridge>/setup",
+    "advanced": "Ook geavanceerde entiteiten aanmaken",
+    "advanced_help": "Discovery- en diagnosehulpmiddelen voor andere modellen, standaard verborgen op de bridge",
+    "cleanup": "Datapunten verwijderen van functies die het toilet niet heeft",
+    "cleanup_help": "Na een nieuwe functieherkenning of verhuizing naar een ander toilet; Fysiek onderhoud blijft altijd staan"
+}

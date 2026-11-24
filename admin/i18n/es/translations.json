@@ -1,0 +1,12 @@
+{
+    "intro": "Se conecta al Geberit AquaClean Bridge for ESP mediante la API nativa de ESPHome, en local y cifrado. El bridge necesita el firmware de API nativa; guarde antes una clave de cifrado en su página /setup.",
+    "host": "Bridge (nombre de host o dirección IP)",
+    "host_help": "Se ofrecen los bridges encontrados en la red; p. ej. aquaclean-xxxxxx.local",
+    "port": "Puerto",
+    "key": "Clave de cifrado de la API",
+    "key_help": "La clave de 44 caracteres guardada en http://<bridge>/setup",
+    "advanced": "Crear también entidades avanzadas",
+    "advanced_help": "Herramientas de descubrimiento y diagnóstico para otros modelos, ocultas por defecto en el bridge",
+    "cleanup": "Eliminar estados de funciones que el inodoro no ofrece",
+    "cleanup_help": "Tras un nuevo descubrimiento o el traslado a otro inodoro; el mantenimiento físico se conserva siempre"
+}

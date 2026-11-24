@@ -1,0 +1,74 @@
+{
+    "i18n": true,
+    "type": "panel",
+    "items": {
+        "_intro": {
+            "type": "staticText",
+            "text": "intro",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 12,
+            "lg": 12,
+            "xl": 12
+        },
+        "host": {
+            "type": "autocompleteSendTo",
+            "command": "discover",
+            "jsonData": "{}",
+            "freeSolo": true,
+            "label": "host",
+            "help": "host_help",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 8,
+            "lg": 6,
+            "xl": 6
+        },
+        "port": {
+            "type": "number",
+            "min": 1,
+            "max": 65535,
+            "label": "port",
+            "xs": 12,
+            "sm": 12,
+            "md": 4,
+            "lg": 2,
+            "xl": 2
+        },
+        "key": {
+            "type": "password",
+            "label": "key",
+            "help": "key_help",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 8,
+            "lg": 6,
+            "xl": 6
+        },
+        "advanced": {
+            "type": "checkbox",
+            "label": "advanced",
+            "help": "advanced_help",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 8,
+            "lg": 6,
+            "xl": 6
+        },
+        "cleanup": {
+            "type": "checkbox",
+            "label": "cleanup",
+            "help": "cleanup_help",
+            "newLine": true,
+            "xs": 12,
+            "sm": 12,
+            "md": 8,
+            "lg": 6,
+            "xl": 6
+        }
+    }
+}

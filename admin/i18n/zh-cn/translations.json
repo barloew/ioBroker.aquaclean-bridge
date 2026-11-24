@@ -1,0 +1,12 @@
+{
+    "intro": "通过 ESPHome 原生 API 在本地以加密方式连接 Geberit AquaClean Bridge for ESP。Bridge 需要原生 API 固件；请先在其 /setup 页面保存加密密钥。",
+    "host": "Bridge（主机名或 IP 地址）",
+    "host_help": "会列出在网络中找到的 Bridge；例如 aquaclean-xxxxxx.local",
+    "port": "端口",
+    "key": "API 加密密钥",
+    "key_help": "保存在 http://<bridge>/setup 上的 44 个字符的密钥",
+    "advanced": "同时创建高级实体",
+    "advanced_help": "用于其他型号的发现和诊断工具，在 Bridge 上默认隐藏",
+    "cleanup": "删除马桶不提供的功能的状态",
+    "cleanup_help": "在重新发现或移到另一个马桶之后；物理维护始终保留"
+}

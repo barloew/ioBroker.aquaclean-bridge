@@ -1,0 +1,12 @@
+{
+    "intro": "Liga-se à Geberit AquaClean Bridge for ESP através da API nativa do ESPHome, localmente e de forma encriptada. A bridge precisa do firmware da API nativa; guarde primeiro uma chave de encriptação na página /setup.",
+    "host": "Bridge (nome do anfitrião ou endereço IP)",
+    "host_help": "São sugeridas as bridges encontradas na rede; p. ex. aquaclean-xxxxxx.local",
+    "port": "Porta",
+    "key": "Chave de encriptação da API",
+    "key_help": "A chave de 44 caracteres guardada em http://<bridge>/setup",
+    "advanced": "Criar também entidades avançadas",
+    "advanced_help": "Ferramentas de descoberta e diagnóstico para outros modelos, ocultas por defeito na bridge",
+    "cleanup": "Remover estados de funções que a sanita não oferece",
+    "cleanup_help": "Após uma nova deteção ou mudança para outra sanita; a manutenção física é sempre mantida"
+}

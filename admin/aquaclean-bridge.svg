@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 960">
+  <!-- wall-hung shower toilet, side view, with a water drop: own drawing (as the Homey app icon), no logo -->
+  <rect width="960" height="960" rx="180" fill="#1F5F8B"/>
+  <g fill="none" stroke="#FFFFFF" stroke-width="44" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M250 150 V810"/>
+    <path d="M250 420 H700 C760 420 790 460 780 515 C760 620 650 690 520 690 H430 L410 760 H330 L310 690 H250"/>
+    <path d="M250 380 H690"/>
+    <path d="M600 170 C600 170 520 260 520 310 C520 355 556 380 600 380 C644 380 680 355 680 310 C680 260 600 170 600 170 Z"/>
+  </g>
+</svg>

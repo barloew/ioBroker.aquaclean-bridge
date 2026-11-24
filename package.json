@@ -1,0 +1,57 @@
+{
+    "name": "iobroker.aquaclean-bridge",
+    "version": "0.1.0",
+    "description": "Geberit AquaClean shower toilet through the AquaClean Bridge for ESP (ESPHome native API, local)",
+    "author": {
+        "name": "barloew",
+        "email": "barloew@users.noreply.github.com"
+    },
+    "homepage": "https://github.com/barloew/ioBroker.aquaclean-bridge",
+    "license": "MIT",
+    "keywords": [
+        "ioBroker",
+        "geberit",
+        "aquaclean",
+        "shower toilet",
+        "esphome",
+        "bridge",
+        "household"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/barloew/ioBroker.aquaclean-bridge.git"
+    },
+    "bugs": {
+        "url": "https://github.com/barloew/ioBroker.aquaclean-bridge/issues"
+    },
+    "engines": {
+        "node": ">= 20"
+    },
+    "dependencies": {
+        "@iobroker/adapter-core": "^3.4.3",
+        "@2colors/esphome-native-api": "1.3.7"
+    },
+    "devDependencies": {
+        "@iobroker/testing": "^6.3.3",
+        "@iobroker/adapter-dev": "^1.5.0",
+        "@iobroker/eslint-config": "^2.3.4"
+    },
+    "main": "main.js",
+    "files": [
+        "admin/",
+        "lib/",
+        "docs/",
+        "main.js",
+        "io-package.json",
+        "LICENSE"
+    ],
+    "scripts": {
+        "test:js": "mocha --config test/mocharc.custom.json \"{!(node_modules|test)/**/*.test.js,*.test.js,test/**/test!(PackageFiles|Startup).js}\"",
+        "test:package": "mocha test/package --exit",
+        "test:integration": "mocha test/integration --exit",
+        "test": "npm run test:js && npm run test:package",
+        "lint": "eslint -c eslint.config.mjs .",
+        "translate": "translate-adapter",
+        "release": "release-script"
+    }
+}

@@ -1,0 +1,12 @@
+{
+    "intro": "Se connecte au Geberit AquaClean Bridge for ESP via l'API native d'ESPHome, en local et de façon chiffrée. Le bridge doit utiliser le firmware API native ; enregistrez d'abord une clé de chiffrement sur sa page /setup.",
+    "host": "Bridge (nom d'hôte ou adresse IP)",
+    "host_help": "Les bridges trouvés sur le réseau sont proposés ; p. ex. aquaclean-xxxxxx.local",
+    "port": "Port",
+    "key": "Clé de chiffrement de l'API",
+    "key_help": "La clé de 44 caractères enregistrée sur http://<bridge>/setup",
+    "advanced": "Créer aussi les entités avancées",
+    "advanced_help": "Outils de découverte et de diagnostic pour d'autres modèles, masqués par défaut sur le bridge",
+    "cleanup": "Supprimer les états des fonctions que les toilettes n'offrent pas",
+    "cleanup_help": "Après une nouvelle détection ou un déplacement vers d'autres toilettes ; la maintenance physique est toujours conservée"
+}
