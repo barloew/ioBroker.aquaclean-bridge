@@ -25,7 +25,7 @@
         "url": "https://github.com/barloew/ioBroker.aquaclean-bridge/issues"
     },
     "engines": {
-        "node": ">= 20"
+        "node": ">= 22"
     },
     "dependencies": {
         "@iobroker/adapter-core": "^3.4.3",
