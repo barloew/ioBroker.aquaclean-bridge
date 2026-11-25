@@ -73,7 +73,7 @@ Tastendruck auf der Fernbedienung das Badlicht einschalten.
 4. **Instanz konfigurieren** (siehe unten) und speichern. Die Instanz wird grün, sobald sie verbunden ist.
 
 Eine Bridge pro Instanz; für ein zweites WC eine zweite Instanz anlegen. Der Adapter benötigt Node.js 22 oder
-neuer und js-controller 6.0.11 oder neuer.
+neuer und js-controller 7.0.7 oder neuer.
 
 ## Konfiguration
 

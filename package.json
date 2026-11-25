@@ -1,6 +1,6 @@
 {
     "name": "iobroker.aquaclean-bridge",
-    "version": "0.1.1",
+    "version": "0.1.2",
     "description": "Geberit AquaClean shower toilet through the AquaClean Bridge for ESP (ESPHome native API, local)",
     "author": {
         "name": "barloew",

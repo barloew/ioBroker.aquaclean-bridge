@@ -1,8 +1,21 @@
 {
     "common": {
         "name": "aquaclean-bridge",
-        "version": "0.1.1",
+        "version": "0.1.2",
         "news": {
+            "0.1.2": {
+                "en": "Requires js-controller 7.0.7 or newer",
+                "de": "Benötigt js-controller 7.0.7 oder neuer",
+                "ru": "Требуется js-controller 7.0.7 или новее",
+                "pt": "Requer js-controller 7.0.7 ou mais recente",
+                "nl": "Vereist js-controller 7.0.7 of nieuwer",
+                "fr": "Nécessite js-controller 7.0.7 ou plus récent",
+                "it": "Richiede js-controller 7.0.7 o successivo",
+                "es": "Requiere js-controller 7.0.7 o posterior",
+                "pl": "Wymaga js-controller 7.0.7 lub nowszego",
+                "uk": "Потрібен js-controller 7.0.7 або новіший",
+                "zh-cn": "需要 js-controller 7.0.7 或更高版本"
+            },
             "0.1.1": {
                 "en": "Published with provenance through trusted publishing; maintenance of the test matrix and Dependabot",
                 "de": "Mit Provenienz über Trusted Publishing veröffentlicht; Pflege der Testmatrix und von Dependabot",
@@ -97,7 +110,7 @@
         "messagebox": true,
         "dependencies": [
             {
-                "js-controller": ">=6.0.11"
+                "js-controller": ">=7.0.7"
             }
         ],
         "globalDependencies": [

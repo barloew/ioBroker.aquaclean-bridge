@@ -76,7 +76,7 @@ light with a long press on the remote control.
 4. **Configure the instance** (below) and save. The instance turns green once it is connected.
 
 Only one bridge per instance; for a second toilet, add a second instance. The adapter needs Node.js 22 or newer
-and js-controller 6.0.11 or newer.
+and js-controller 7.0.7 or newer.
 
 ## Configuration
 
@@ -440,6 +440,10 @@ and the service terms of your installer.
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
+### 0.1.2 (2026-11-25)
+
+- (barloew) Requires js-controller 7.0.7 or newer.
+
 ### 0.1.1 (2026-11-24)
 
 - (barloew) Published with provenance through trusted publishing.
